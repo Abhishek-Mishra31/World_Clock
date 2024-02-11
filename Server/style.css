@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    height: 110vh;
+    width: 100vw;
+    background: url("https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?w=996&t=st=1690341444~exp=1690342044~hmac=e75debab37b964eb0c221f29233924b80c1da4c7dd4e49cca2a2499183ee256d");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    width: 40vw;
+}
+
+#Head {
+    background-color: #33286c !important;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    align-items: center;
+}
+
+.box h2 {
+    color: #f1d0db;
+    font-size: 60px;
+    font-family: ui-monospace
+}
+
+
+.disp {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    height: auto;
+    width: auto;
+    font-size: 25px;
+    font-family: math;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 350px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width:auto ;
+    }
+
+
+
+}
